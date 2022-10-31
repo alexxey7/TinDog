@@ -147,13 +147,16 @@ em {
 }
 
 #pricing {
-    padding: 7% 0 7% 0;
-    text-align: center;
+    padding: 100px;
 }
 
 .pricing-header {
     color: black;
     font-weight: 700;
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
 
 /* Call to Action Section */
@@ -168,12 +171,22 @@ em {
     color: #fff;
 }
 
-.cards {
-    margin: auto;
-}
 
 /* Footer Section */
 #footer {
     padding: 7% 0 7% 0;
     text-align: center;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        width: 60%;
+        padding-top: 5%;
+        transform: rotate(0deg);
+    }
 }
