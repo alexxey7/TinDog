@@ -169,6 +169,7 @@ em {
 
 #cta-header {
     color: #fff;
+    font-size: 3rem;
 }
 
 
@@ -176,6 +177,10 @@ em {
 #footer {
     padding: 7% 0 7% 0;
     text-align: center;
+}
+
+.footer-link {
+    padding: 10px;
 }
 
 @media (max-width: 1028px) {
